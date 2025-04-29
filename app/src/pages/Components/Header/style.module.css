@@ -1,0 +1,36 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 1180px;
+    padding-top: 20px;
+    margin: 0 auto;
+    align-items: center;
+    font: 600 16px Montserrat;
+    border-bottom: rgba(224, 224, 224, 1) solid 1.2px;
+    padding-bottom: 30px;
+    & .main{
+        font: 600 16px Montserrat;
+            text-decoration: none;
+            color: inherit;
+    }
+    & .right {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+
+        & .login {
+            font: 600 16px Montserrat;
+            text-decoration: none;
+            color: inherit; 
+        }
+
+        & .sign {
+            border-radius: 14px;
+            border: 1px solid rgba(43, 120, 139, 1);
+            padding: 13px 21px;
+            background-color: rgba(43, 120, 139, 1);
+            color: rgba(255, 255, 255, 1);
+            text-decoration: none;
+        }
+    }
+}

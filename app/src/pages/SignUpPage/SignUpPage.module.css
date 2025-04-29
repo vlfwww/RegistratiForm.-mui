@@ -1,0 +1,27 @@
+main{
+    margin: 100px auto;
+    width: 40%;
+    & h2{
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    & .wrapper{
+        margin: 30px auto;
+        text-align: center;
+        border: solid black 1px;
+        border-radius: 10px;
+        padding: 20px 0 20px;
+        & .input{
+            width: 300px;
+        }
+        & .passwordConfirm{
+            margin-bottom: 30px;
+        }
+        & .login{
+            margin-top: 10px;
+            text-decoration: none;
+            color: black;
+            font-family: 'Courier New', Courier, monospace;
+        }
+    }
+}
